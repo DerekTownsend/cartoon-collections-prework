@@ -32,9 +32,7 @@ def find_the_cheese(array)# code an argument here
     if array.includes?(cheese)
       if itemIndex<array.index(cheese) or itemIndex==-1
         itemIndex=array.index(cheese)
-
       end
-
     end
   end
 
