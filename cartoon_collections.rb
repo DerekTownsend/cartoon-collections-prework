@@ -21,6 +21,7 @@ def long_planeteer_calls(array)# code an argument here
       return true
     end
   end
+  return true
 end
 
 def find_the_cheese# code an argument here
