@@ -35,5 +35,8 @@ def find_the_cheese(array)# code an argument here
       end
     end
   end
+  if itemIndex==-1
+    return nil
+  end
   return array[itemIndex]
 end
