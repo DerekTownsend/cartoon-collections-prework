@@ -30,7 +30,10 @@ def find_the_cheese(array)# code an argument here
   itemIndex=-1
   cheese_types.each do |cheese|
     if array.includes?(cheese)
-      itemIndex=array.index(cheese)
+      if itemIndex<array.index(cheese)
+        itemIndex=array.index(cheese)
+
+      end
 
     end
   end
